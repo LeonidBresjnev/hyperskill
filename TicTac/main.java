@@ -244,11 +244,31 @@ class tictac {
 }
 public class Main {
 
-
     public static void main(String[] args) {
+        java.util.Scanner myreader = new java.util.Scanner(System.in);
+        short n = myreader.newShort();
+        myreader.
+        int max = 0;
+        int a = myreader.newInt();
+        int b;
+        int prev = myreader.newInt();
+        for (i=1; i<n; i++){
+            b = myreader.newInt();
+            max = Math.max(max, a * b);
+            a = b;
+        }
+        System.out.println(max);
 
-        //System.out.println("Enter cells:");
-        //
+        int i;
+        for (i = 1; i< args.length; i=i+1) {
+            if ("mode".equals(args[i])) {
+                System.out.println(args[+1]);
+                break;
+            }
+        }
+        if (i == args.lengt){
+            System.out.println("default");
+        }
 
         String levels = new String("");
         Scanner myscanner = new Scanner(System.in);
