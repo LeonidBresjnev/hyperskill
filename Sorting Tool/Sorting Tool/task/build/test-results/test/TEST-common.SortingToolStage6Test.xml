@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="common.SortingToolStage6Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-12-05T18:30:08" hostname="YAROSLAVL" time="0.575">
+  <properties/>
+  <testcase name="start" classname="common.SortingToolStage6Test" time="0.575"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+> 1 -2   333 4
+> 42
+> 1                 1
+Total numbers: 7
+?[1;31m
+Start test 2?[0m
+> 1 -2   333 4
+> 42
+> 1                 1
+Total numbers: 7
+?[1;31m
+Start test 3?[0m
+> 1 -2   333 4
+> 42
+> 1                 1
+Total numbers: 7.
+-2: 0time(s), 0%
+4: 0time(s), 0%
+42: 0time(s), 0%
+333: 0time(s), 0%
+1: 2time(s), 28%
+?[1;31m
+Start test 4?[0m
+> 1 -2   333 4
+> 42
+> 1                 1
+Total numbers: 7.
+-2: 0time(s), 0%
+333: 0time(s), 0%
+4: 0time(s), 0%
+42: 0time(s), 0%
+1: 2time(s), 28%
+?[1;31m
+Start test 5?[0m
+> 1 -2   333 4
+> 42
+> 42
+> 1                 1
+Total numbers: 4.
+1                 1: 0time(s), 0%
+1 -2   333 4: 0time(s), 0%
+42: 1time(s), 25%
+?[1;31m
+Start test 6?[0m
+> 1111 1111
+> 22222
+> 3
+> 44
+Total numbers: 4.
+1111 1111: 0time(s), 0%
+22222: 0time(s), 0%
+3: 0time(s), 0%
+44: 0time(s), 0%
+?[1;31m
+Start test 7?[0m
+> 1111 1111
+> 22222
+> 3
+> 44
+Total numbers: 5.
+22222: 0time(s), 0%
+3: 0time(s), 0%
+44: 0time(s), 0%
+1111: 1time(s), 20%
+?[1;31m
+Start test 8?[0m
+> 1111 1111
+> 22222
+> 3
+> 44
+Total numbers: 5.
+3: 0time(s), 0%
+44: 0time(s), 0%
+22222: 0time(s), 0%
+1111: 1time(s), 20%
+?[1;31m
+Start test 9?[0m
+No sorting type defined!
+?[1;31m
+Start test 10?[0m
+-abc is not a valid parameter. It will be skipped.
+> 1 -2   333 4
+> 42
+> 1                 1
+Total numbers: 7.
+-2: 0time(s), 0%
+4: 0time(s), 0%
+42: 0time(s), 0%
+333: 0time(s), 0%
+1: 2time(s), 28%
+?[1;31m
+Start test 11?[0m
+-cde is not a valid parameter. It will be skipped.
+> 1111 1111
+> 22222
+> 3
+> 44
+Total numbers: 4.
+1111 1111: 0time(s), 0%
+22222: 0time(s), 0%
+3: 0time(s), 0%
+44: 0time(s), 0%
+?[1;31m
+Start test 12?[0m
+No sorting type defined!
+?[1;31m
+Start test 13?[0m
+Total numbers: 7.
+-2: 0time(s), 0%
+333: 0time(s), 0%
+4: 0time(s), 0%
+42: 0time(s), 0%
+1: 2time(s), 28%
+?[1;31m
+Start test 14?[0m
+?[1;31m
+Start test 15?[0m
+Total numbers: 7
+?[1;31m
+Start test 16?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
