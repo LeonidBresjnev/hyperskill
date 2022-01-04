@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: <code>\r\n</code>
+- text: <code>\b</code>
+- text: <code>\t\b</code>
+- text: <code>\n</code>
+- text: <code>\r</code>
+- text: <code>\t</code>
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15245#comment
+status: Solved
+record: -1
