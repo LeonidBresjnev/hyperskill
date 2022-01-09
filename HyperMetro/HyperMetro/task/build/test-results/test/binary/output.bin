@@ -1,0 +1,200 @@
+[1;31m
+Start test 1[0m
+&Circle line King's Cross St. Pancras
+2Hammersmith & City line King's Cross St. Pancras
+DLR 1 Canning Town
+DLR 2 Canning Town
+DLR 3 Canning Town
+,Metropolitan line King's Cross St. Pancras
+(Northern line King's Cross St. Pancras
+*Piccadilly line King's Cross St. Pancras
+(Victoria line King's Cross St. Pancras
+Jubilee line Canning Town
+DLR 2 Canning Town
+DLR 3 Canning Town
+DLR 1 Canning Town
+Jubilee line Canning Town
+Jubilee line Canning Town
+DLR 1 Canning Town
+DLR 2 Canning Town
+file is read
+I> /route "Waterloo & City line" "Waterloo" "Waterloo & City line" "Bank"
+
+Waterloo
+Bank
+[1;31m
+Start test 2[0m
+&Circle line King's Cross St. Pancras
+2Hammersmith & City line King's Cross St. Pancras
+DLR 1 Canning Town
+DLR 2 Canning Town
+DLR 3 Canning Town
+,Metropolitan line King's Cross St. Pancras
+(Northern line King's Cross St. Pancras
+*Piccadilly line King's Cross St. Pancras
+(Victoria line King's Cross St. Pancras
+Jubilee line Canning Town
+DLR 2 Canning Town
+DLR 3 Canning Town
+DLR 1 Canning Town
+Jubilee line Canning Town
+Jubilee line Canning Town
+DLR 1 Canning Town
+DLR 2 Canning Town
+file is read
+;> /route "Victoria line" "Victoria" "Northern line" "Oval"
+
+Victoria
+	Pimlico
+
+Vauxhall
+Stockwell
+"Transition to line Northern line
+Stockwell
+Oval
+[1;31m
+Start test 3[0m
+&Circle line King's Cross St. Pancras
+2Hammersmith & City line King's Cross St. Pancras
+DLR 1 Canning Town
+DLR 2 Canning Town
+DLR 3 Canning Town
+,Metropolitan line King's Cross St. Pancras
+(Northern line King's Cross St. Pancras
+*Piccadilly line King's Cross St. Pancras
+(Victoria line King's Cross St. Pancras
+Jubilee line Canning Town
+DLR 2 Canning Town
+DLR 3 Canning Town
+DLR 1 Canning Town
+Jubilee line Canning Town
+Jubilee line Canning Town
+DLR 1 Canning Town
+DLR 2 Canning Town
+file is read
+=> /route "Victoria line" "Green Park" "Northern line" "Oval"
+Green Park
+!Transition to line Jubilee line
+Green Park
+Westminster
+
+Waterloo
+"Transition to line Northern line
+
+Waterloo
+Kennington
+Oval
+[1;31m
+Start test 4[0m
+&Circle line King's Cross St. Pancras
+2Hammersmith & City line King's Cross St. Pancras
+DLR 1 Canning Town
+DLR 2 Canning Town
+DLR 3 Canning Town
+,Metropolitan line King's Cross St. Pancras
+(Northern line King's Cross St. Pancras
+*Piccadilly line King's Cross St. Pancras
+(Victoria line King's Cross St. Pancras
+Jubilee line Canning Town
+DLR 2 Canning Town
+DLR 3 Canning Town
+DLR 1 Canning Town
+Jubilee line Canning Town
+Jubilee line Canning Town
+DLR 1 Canning Town
+DLR 2 Canning Town
+file is read
+S> /route "Piccadilly line" "Heathrow Terminal 5" "Piccadilly line" "Hounslow West"
+Heathrow Terminal 5
+Heathrow Terminals 1-2-3
+Hatton Cross
+Hounslow West
+[1;31m
+Start test 5[0m
+&Circle line King's Cross St. Pancras
+2Hammersmith & City line King's Cross St. Pancras
+DLR 1 Canning Town
+DLR 2 Canning Town
+DLR 3 Canning Town
+,Metropolitan line King's Cross St. Pancras
+(Northern line King's Cross St. Pancras
+*Piccadilly line King's Cross St. Pancras
+(Victoria line King's Cross St. Pancras
+Jubilee line Canning Town
+DLR 2 Canning Town
+DLR 3 Canning Town
+DLR 1 Canning Town
+Jubilee line Canning Town
+Jubilee line Canning Town
+DLR 1 Canning Town
+DLR 2 Canning Town
+file is read
+R> /route "Piccadilly line" "Hatton Cross" "Piccadilly line" "Heathrow Terminal 4"
+Hatton Cross
+Heathrow Terminal 4
+[1;31m
+Start test 6[0m
+&Circle line King's Cross St. Pancras
+2Hammersmith & City line King's Cross St. Pancras
+DLR 1 Canning Town
+DLR 2 Canning Town
+DLR 3 Canning Town
+,Metropolitan line King's Cross St. Pancras
+(Northern line King's Cross St. Pancras
+*Piccadilly line King's Cross St. Pancras
+(Victoria line King's Cross St. Pancras
+Jubilee line Canning Town
+DLR 2 Canning Town
+DLR 3 Canning Town
+DLR 1 Canning Town
+Jubilee line Canning Town
+Jubilee line Canning Town
+DLR 1 Canning Town
+DLR 2 Canning Town
+file is read
+J> /fastest-route "District line" "Richmond" "District line" "Gunnersbury"
+
+Richmond
+Kew Gardens
+Gunnersbury
+Total: 12 minutes in the way
+[1;31m
+Start test 7[0m
+&Circle line King's Cross St. Pancras
+2Hammersmith & City line King's Cross St. Pancras
+DLR 1 Canning Town
+DLR 2 Canning Town
+DLR 3 Canning Town
+,Metropolitan line King's Cross St. Pancras
+(Northern line King's Cross St. Pancras
+*Piccadilly line King's Cross St. Pancras
+(Victoria line King's Cross St. Pancras
+Jubilee line Canning Town
+DLR 2 Canning Town
+DLR 3 Canning Town
+DLR 1 Canning Town
+Jubilee line Canning Town
+Jubilee line Canning Town
+DLR 1 Canning Town
+DLR 2 Canning Town
+file is read
+C> /fastest-route "Victoria line" "Brixton" "Northern line" "Angel"
+	Brixton
+Stockwell
+"Transition to line Northern line
+Stockwell
+Oval
+Kennington
+
+Waterloo
+)Transition to line Waterloo & City line
+
+Waterloo
+Bank
+"Transition to line Northern line
+Bank
+
+Moorgate
+Old Street
+Angel
+Total: 47 minutes in the way
