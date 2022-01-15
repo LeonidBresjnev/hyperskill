@@ -1,0 +1,41 @@
+{
+  "node" : "It can climb trees",
+  "question" : "Can it climb trees?\n",
+  "fact" : "It can climb trees.",
+  "notfact" : "It can't climb trees.",
+  "yes" : {
+    "node" : "It is living in the forest",
+    "question" : "Is it living in the forest?\n",
+    "fact" : "It is living in the forest.",
+    "notfact" : "It isn't living in the forest.",
+    "yes" : {
+      "node" : "lynx",
+      "question" : "Is it a lynx?",
+      "fact" : null,
+      "notfact" : null,
+      "yes" : null,
+      "no" : null,
+      "parent" : "It is living in the forest"
+    },
+    "no" : {
+      "node" : "cat",
+      "question" : "Is it a cat?",
+      "fact" : null,
+      "notfact" : null,
+      "yes" : null,
+      "no" : null,
+      "parent" : "It is living in the forest"
+    },
+    "parent" : "It can climb trees"
+  },
+  "no" : {
+    "node" : "dog",
+    "question" : "Is it a dog?",
+    "fact" : null,
+    "notfact" : null,
+    "yes" : null,
+    "no" : null,
+    "parent" : "It can climb trees"
+  },
+  "parent" : null
+}
