@@ -1,0 +1,26 @@
+#checkbox1:checked + #task1 {
+    text-decoration:line-through;
+}
+
+#checkbox2:checked + #task2 {
+    text-decoration:line-through;
+}
+
+#checkbox3:checked + #task3 {
+    text-decoration:line-through;
+}
+#checkbox4:checked + #task4 {
+    text-decoration:line-through;
+}
+#checkbox5:checked + #task5 {
+    text-decoration:line-through;
+}
+#checkbox6:checked + #task6 {
+    text-decoration:line-through;
+}
+#checkbox7:checked + #task7 {
+    text-decoration:line-through;
+}
+#checkbox8:checked + #task8 {
+    text-decoration:line-through;
+}
